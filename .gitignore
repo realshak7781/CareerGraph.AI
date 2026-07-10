@@ -1,0 +1,72 @@
+# ==============================================================================
+# CareerGraph.AI - Root .gitignore
+# Prepared for Public Repository Pre-Flight Sweeps
+# ==============================================================================
+
+# Python Environmental Variables & Configs
+.env
+*.env
+.env.*
+config.local
+*.local.env
+
+# Python Bytecode & Execution Caches
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Frontend Dependency Graphs & Build Engines
+node_modules/
+.next/
+dist/
+out/
+.turbo/
+build/
+.eslintcache
+*.tsbuildinfo
+
+# Debug & Execution Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Native Local Test Datasets & Data Layers
+# Strictly blocks any local PII, resumes, zip archives, raw databases
+backend/data/*
+!backend/data/.gitkeep
+zip_data/*
+!zip_data/.gitkeep
+*.zip
+*.pdf
+*.csv
+*.xlsx
+
+# OS Metadata Debris
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Ehthumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

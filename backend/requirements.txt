@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+celery
+redis
+neo4j
+langgraph
+playwright
+pydantic
+pypdf
+pytest
+fastembed
+playwright-stealth
+python-dotenv
